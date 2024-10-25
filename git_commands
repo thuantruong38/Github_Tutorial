@@ -1,7 +1,105 @@
-1. Support for password authentication Github Fixed:
-   (Truongt@ (master) ~/Learning/GitHub/Tutorial $ git push origin master
-Username for 'https://github.com': thuantruong38
-Password for 'https://thuantruong38@github.com': 
-remote: Support for password authentication was removed on August 13, 2021.)
+1. Sign up and config
 
-   https://dev.to/shafia/support-for-password-authentication-was-removed-please-use-a-personal-access-token-instead-4nbk
+   a. Create a Githut account:  https://github.com/
+   b. Insstall Git to your own PC: https://git-scm.com/downloads
+
+   c. Config:
+
+      * Set your username for every repository:
+
+	  $ git config --global user.name <your_user_name_here>
+
+      * Set your email (same email as your Github account)
+
+	  $ git config --global user.email <your email>
+
+      * Check Git Config:
+
+	  $ git config --list
+
+2. Git Init
+   a. Create a local Repo in your own PC:
+
+      $ git init
+
+   b. Create a repository in GitHub:
+
+      Click on "Create repository" button.
+
+   b. Link the local repository to an empty Github repository:
+
+      $ git remote add origin [Github_Repo_URL]
+
+3. Git Add - Add changes to Staging Area
+
+     $ git status
+     $ git add file_name
+     $ git add .          //add all changes to staging area
+
+4. Git Commit - Push changes to Local Repo
+
+     $ git commit -m "Commit_Message"
+
+     $ git commit --amend -m "Commit_Message_Update"
+
+
+
+4. Git Commit - Push changes to Local Repo
+
+     $ git commit -m "Commit_Message"
+
+     $ git commit --amend -m "Commit_Message_Update"
+
+
+4. Git Commit - Push changes to Local Repo
+
+     $ git commit -m "Commit_Message"
+
+     $ git commit --amend -m "Commit_Message_Update"
+
+
+4. Git Commit - Push changes to Local Repo
+
+     $ git commit -m "Commit_Message"
+
+     $ git commit --amend -m "Commit_Message_Update"
+
+
+4. Git Commit - Push changes to Local Repo
+
+     $ git commit -m "Commit_Message"
+
+     $ git commit --amend -m "Commit_Message_Update"
+
+
+4. Git Commit - Push changes to Local Repo
+
+     $ git commit -m "Commit_Message"
+
+     $ git commit --amend -m "Commit_Message_Update"
+
+5. Git Reset
+   Remove the specified file from the staging area, but leave the working directory unchanged.
+
+     $ git reset file
+
+     $ git reset [--soft | --mixed | --hard | --merge | --keep] <commit>
+
+6. Git Pull
+
+     $ git fetch
+
+     $ git pull
+
+7. Git Diff
+
+    $ git diff commit1 commit2
+
+    Example: 
+      $ git diff 4b421e0cbc5ce09913a8ca2b2766f329d92f8ad4 c1674eedd37259f6ebb79f31f4e93b214c995eb0 
+
+8. Git Clone
+
+      $ git clone Repo_URL directory_name
+
+
