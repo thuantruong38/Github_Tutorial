@@ -102,4 +102,10 @@
 
       $ git clone Repo_URL directory_name
 
+9. Git Log
 
+    List version history for the current branch
+
+	$ git log
+
+	$ git log --oneline   //display each commit in one line
