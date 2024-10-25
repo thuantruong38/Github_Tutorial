@@ -1,0 +1,7 @@
+1. Support for password authentication Github Fixed:
+   (Truongt@ (master) ~/Learning/GitHub/Tutorial $ git push origin master
+Username for 'https://github.com': thuantruong38
+Password for 'https://thuantruong38@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.)
+
+   https://dev.to/shafia/support-for-password-authentication-was-removed-please-use-a-personal-access-token-instead-4nbk
